@@ -1,4 +1,4 @@
-module github.com/xxjwxc/gochart
+module github.com/xxjwxc/gocharts
 
 go 1.16
 

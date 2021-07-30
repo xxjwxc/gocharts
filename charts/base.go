@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 	"html/template"
 
-	"github.com/xxjwxc/gochart/datasets"
-	"github.com/xxjwxc/gochart/opts"
+	"github.com/xxjwxc/gocharts/datasets"
+	"github.com/xxjwxc/gocharts/opts"
 	"github.com/xxjwxc/public/tools"
 )
 

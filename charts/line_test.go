@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/xxjwxc/gochart/opts"
+	"github.com/xxjwxc/gocharts/opts"
 )
 
 func TestLine(t *testing.T) {

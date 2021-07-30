@@ -1,7 +1,7 @@
 package charts
 
 import (
-	"github.com/xxjwxc/gochart/types"
+	"github.com/xxjwxc/gocharts/types"
 )
 
 // Line represents a line chart.
