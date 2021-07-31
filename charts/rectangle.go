@@ -1,6 +1,6 @@
 package charts
 
-import "github.com/xxjwxc/gochart/opts"
+import "github.com/xxjwxc/gocharts/opts"
 
 type Overlaper interface {
 	overlap() MultiSeries

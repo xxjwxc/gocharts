@@ -196,6 +196,12 @@ func (bc *BaseConfiguration) setBaseGlobalOptions(opts ...GlobalOpts) {
 	}
 }
 
+func (bc *BaseConfiguration) WidthOption(options ...GlobalOpts) {
+	for _, opt := range options {
+		opt(bc)
+	}
+}
+
 // WithAngleAxisOps sets the angle of the axis.
 func WithAngleAxisOps(opt opts.AngleAxis) GlobalOpts {
 	return func(bc *BaseConfiguration) {
